@@ -16,7 +16,7 @@ public class SuperMonkeyUpgrades : UpgradeDetailedDescriptions
     public override Dictionary<string, string> Table => new()
     {
         {UpgradeType.LaserBlasts, "+1p (2), <i>Energy</i>."},
-        {UpgradeType.PlasmaBlasts, "+1p (3), 50%s, <i>Plasma</i>."},
+        {UpgradeType.PlasmaBlasts, "50%s, <i>Plasma</i>."},
         {UpgradeType.SunAvatar, "+3p (6), +2j (3)."},
         {
             UpgradeType.SunTemple,
@@ -25,7 +25,7 @@ public class SuperMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.TrueSunGod, "+10d (15) (Look online for Sacrifice stuff lol)."},
 
         {UpgradeType.SuperRange, "+1p (2), +10r (60)"},
-        {UpgradeType.EpicRange, "+1p (3), +12r (72), faster projectile speed."},
+        {UpgradeType.EpicRange, "+2p (4), +12r (72), faster projectile speed."},
         {UpgradeType.RoboMonkey, "+3p (6), gains independent second attack. 10d Crits every 15 - 20 shots."},
         {
             UpgradeType.TechTerror,
@@ -43,12 +43,12 @@ public class SuperMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.Ultravision, "+3r (53), Camo."},
         {
             UpgradeType.DarkKnight,
-            "<u>Dart</u> replaced by <u>Monkeyrang</u> (1d, 2md (3), 5p, 0.06s, 53r, <i>Sharp</i>). <u>Knockback</u> buffed: 90% slow to Leads/Ceramics. " +
+            "<u>Dart</u> replaced by <u>Monkeyrang</u> (1d, 2md (3), 4p, 0.06s, 53r, <i>Sharp</i>). <u>Knockback</u> buffed: 90% slow to Leads/Ceramics. " +
             "Ability (20s cooldown): Teleport to a chosen point within range."
         },
         {
             UpgradeType.DarkChampion,
-            "+1d (2), +1md (5), +2p (7), 50%s (0.03), <i>Normal</i>. <u>Knockback</u> buffed: 100% slow to Leads/Ceramics. Ability buffed: Can teleport anywhere."
+            "+1d (2), +1md (5), +2cd, +4p (8), 50%s (0.03), <i>Normal</i>. <u>Knockback</u> buffed: 100% slow to Leads/Ceramics. Ability buffed: Can teleport anywhere."
         },
         {
             UpgradeType.LegendOfTheNight,

@@ -29,7 +29,7 @@ public class SniperMonkeyUpgrades : UpgradeDetailedDescriptions
             UpgradeType.ShrapnelShot,
             "On-hit effect: emits <u>Shrapnel</u> (1d (2d, 4d, 6d, 12d w/ 220 through 520), 3p (4p w/ 023), 5j, <u>Sharp</u>, 45° spread centred on the direction fired)"
         },
-        {UpgradeType.BouncingBullet, "4p (no longer impact), jumps to targets within ~55r until pierce runs out."},
+        {UpgradeType.BouncingBullet, "4p (no longer impact), jumps to targets within 40r (50r w/ 230) until pierce runs out."},
         {
             UpgradeType.SupplyDrop,
             "<u>Shrapnel</u> buffed: +3p (6). <u>Bullet</u> buffed: <i>Normal</i>. Ability (90s cooldown): Drops a crate worth $1200."
@@ -40,12 +40,12 @@ public class SniperMonkeyUpgrades : UpgradeDetailedDescriptions
         },
 
         {UpgradeType.FastFiring, "70%s (1.113s)"},
-        {UpgradeType.EvenFasterFiring, "70%s (0.779s)"},
-        {UpgradeType.SemiAutomatic, "33.33%s (0.2597s)"},
-        {UpgradeType.FullAutoRifle, "50%s (0.12985s)"},
+        {UpgradeType.EvenFasterFiring, "70%s (0.78s)"},
+        {UpgradeType.SemiAutomatic, "33.33%s (0.26s)"},
+        {UpgradeType.FullAutoRifle, "1 md, 50%s (0.13s)"},
         {
             UpgradeType.EliteDefender,
-            "50%s (0.064925s), 1% faster per percent along track target is. Passive (10s cooldown): Shoots 4× faster for 7s after leaking."
+            "2md (3md w/ 105, 4md w/ 205), 50%s (0.064925s), 1% faster per percent along track target is. Passive (10s cooldown): Shoots 4× faster for 7s after leaking."
         },
     };
 }

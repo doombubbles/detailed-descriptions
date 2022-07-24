@@ -23,11 +23,11 @@ public class HeliPilotUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.RazorRotors, "Gains <u>Rotor</u> attack (2d, 10p, 35r zone, 0.75s, <i>Normal</i>)."},
         {
             UpgradeType.ApacheDartship,
-            "Gains <u>Machine Gun</u> attack (1d, 5p, 0.05s, <i>Sharp</i>) and <u>Rocket</u> attack (2d, 40p, 1.0s, ∞r, 4j, <i>Explosion</i>)."
+            "Gains <u>Machine Gun</u> attack (1d, 7p, 0.05s, <i>Sharp</i>) and <u>Rocket</u> attack (2d, 40p, 1.0s, ∞r, 4j, <i>Explosion</i>)."
         },
         {
             UpgradeType.ApachePrime,
-            "<u>Dart</u> buffed: +5d (6), +20p (23), <i>Normal</i>. <u>Machine Gun</u> buffed: +4d (5), +6p (11), <i>Plasma</i>. <u>Rocket</u> buffed: +15md (17)."
+            "<u>Dart</u> buffed: +5d (6), +20p (23), <i>Normal</i>. <u>Machine Gun</u> buffed: +4d (5), +4p (11), <i>Plasma</i>. <u>Rocket</u> buffed: +15md (17)."
         },
 
         {UpgradeType.BiggerJets, "Flies faster."},
@@ -54,8 +54,8 @@ public class HeliPilotUpgrades : UpgradeDetailedDescriptions
         {
             UpgradeType.ComancheDefense,
             "<u>Passive</u>: Summons 1, 2, 3 Mini-Comanches for 15s when a Bloon crosses 25%, 50%, 75% of the track" +
-            "with <u>Darts</u> attack (2d, 3p, 0.3s, 40r, 3j, <i>Sharp</i>) and <u>Rocket</u> attack (1d, 2cd (3), 2md (3), 100p, 3.0s, <i>Explosion</i>). " +
-            "<u>Mini Missile</u> buffed: 3d, 30p"
+            "with <u>Darts</u> attack (2d, 4p, 0.3s, 40r, 3j, <i>Sharp</i>) and <u>Rocket</u> attack (1d, 2cd (3), 2md (3), 100p, 3.0s, <i>Explosion</i>). " +
+            "<u>Mini Missile</u> buffed: 3d, 30p, 1s. <u>Darts</u> buffed: 2d"
         },
         {UpgradeType.ComancheCommander, "+1d (including mini comanche attacks). Comanches are permanent."},
     };

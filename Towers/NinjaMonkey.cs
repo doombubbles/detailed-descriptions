@@ -36,7 +36,7 @@ public class NinjaMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.GrandSaboteur,
-            "Ability (60s cooldown, 30s duration): All Bloons and blimps move at half speed, including new spawns, but not children of blimps; deals 25%d to new Blimps entering the map."
+            "Ability (60s cooldown, 30s duration): All Bloons and blimps move at half speed, including new spawns, but not children of blimps; deals 25%d to new Blimps entering the map. Shinobis have +1md, +5r."
         },
 
         {UpgradeType.SeekingShuriken, "<u>Shurikens</u> can seek targets."},

@@ -26,19 +26,19 @@ public class MonkeySubUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.BloontoniumReactor,
-            "<u>Sonar</u> buffed: 0.3s. While submerged, gains <u>Radioactive</u> attack (1d (2ld w/ 420), 50p (70p w/ 410, 100p w/ 420), 0.3s (0.255s w/ 410, 0.191s w/ 420), <i>Normal</i>). " +
+            "<u>Sonar</u> buffed: 0.3s. While submerged, gains <u>Radioactive</u> attack (1d (2ld w/ 420), 50p (70p w/ 410, 100p w/ 420), 0.3s (0.255s w/ 410, 0.191s w/ 420), <i>Shatter</i> (<i>Normal</i> with 420)). " +
             "Water towers in range have 85% ability cooldowns."
         },
         {
             UpgradeType.Energizer,
-            "<u>Radioactive</u> buffed: 3d, 1000p/ Water towers in range have 50% ability cooldowns, all others 80%. Heroes in range get +50% XP."
+            "<u>Radioactive</u> buffed: 5d, 5cd, 1000p/ Water towers in range have 50% ability cooldowns, all others 80%. Heroes in range get +50% XP."
         },
 
         {UpgradeType.BarbedDarts, "+3p (5)"},
         {UpgradeType.HeatTippedDarts, "<u>Dart</u>: <i>Normal</i>"},
         {
             UpgradeType.BallisticMissile,
-            "+8r (50), gains <u>Missile</u> attack (1d, 5cd (6), 5md (6), 100p, 1.105s (.967s w/ 031, 0.87s w/ 032), <i>Explosion</i>). Infinite range with 230 crosspath."
+            "+8r (50), gains <u>Missile</u> attack (1d, 5cd (6), 5md (6), 100p, .99s, <i>Explosion</i>). Infinite range with 230 crosspath."
         },
         {
             UpgradeType.FirstStrikeCapability,
@@ -46,7 +46,7 @@ public class MonkeySubUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.PreEmptiveStrike,
-            "<u>Missile</u> buffed: +6cd (11), +6md (11), 33.33%s (0.5s). Ability cooldown is now 45s. Passive: Sends an assassin (up to 750d) at any Blimp that enters the map."
+            "<u>Missile</u> buffed: +5d (10), +4cd (15), +4md (15), 33.33%s (0.5s). Ability cooldown is now 45s. Passive: Sends an assassin (up to 750d) at any Blimp that enters the map."
         },
 
         {UpgradeType.TwinGuns, "50%s (0.375)"},

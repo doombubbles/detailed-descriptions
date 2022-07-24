@@ -19,18 +19,18 @@ public class GlueGunnerUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.GlueSoak, "<u>Glued</u> status soaks through all non-Blimp layers."},
         {
             UpgradeType.CorrosiveGlue,
-            "<u>Glued</u> status buffed: 1d/2.3s and can overwrites weaker effects. <u>Glue</u> can affect Blimps, but lasts half as long and doesn't slow."
+            "<u>Glued</u> status buffed: 1d/2s and can overwrites weaker effects. <u>Glue</u> can affect Blimps, but lasts half as long and doesn't slow."
         },
-        {UpgradeType.BloonDissolver, "<u>Glued</u> status buffed: 1d/.575s"},
+        {UpgradeType.BloonDissolver, "<u>Glued</u> status buffed: 1d/.575s, +1cd (2)"},
         {UpgradeType.BloonLiquefier, "+1p (2). <u>Glued</u> status buffed: 1d/.1s"},
-        {UpgradeType.TheBloonSolver, "2j, 4p, 25%s (0.25), impact. <u>Glued</u> status buffed: 3cd/0.1s and 3md/0.1s."},
+        {UpgradeType.TheBloonSolver, "2j, 4p, 25%s (0.25), impact. <u>Glued</u> status buffed: +4cd/0.1s and +5md/0.1s."},
 
         {UpgradeType.BiggerGlobs, "+1p (2)"},
         {UpgradeType.GlueSplatter, "+4p (6), impact"},
         {UpgradeType.GlueHose, "33.33%s (0.333)"},
         {
             UpgradeType.GlueStrike,
-            "Ability (30s cooldown): Applies weakening-glue (take +1d) to all Bloons, (Blimps w/ 240). Soaks 6 layers. Will refresh duration of stronger glue instead of replacing."
+            "Ability (30s cooldown): Applies weakening-glue (take +2d, allows <i>Sharp</i>to pop Lead) to all Bloons, (+Blimps w/ 240). Soaks 6 layers. Will refresh duration of stronger glue instead of replacing."
         },
         {
             UpgradeType.GlueStorm,

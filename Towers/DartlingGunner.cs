@@ -22,7 +22,7 @@ public class DartlingGunnerUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.LaserCannon,
-            "<u>Dart</u> attack replaced with <u>Laser</u> (2d, 4p, .2s, ∞r, <i>Energy</i>). <u>Laser Shock</u> now lasts 2s."
+            "<u>Dart</u> attack replaced with <u>Laser</u> (2d, 6p (9p w/ 302), .2s, ∞r, <i>Energy</i>). <u>Laser Shock</u> now lasts 2s."
         },
         {
             UpgradeType.PlasmaAccelerator,
@@ -31,7 +31,7 @@ public class DartlingGunnerUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.RayOfDoom,
-            "No tip effect, but <u>Beam</u> buffed: 25d, +950p (1000). <u>Laser Shock</u> buffed: 15d/.1s, 5s duration"
+            "No tip effect, but <u>Beam</u> buffed: 25d (+55d to first hit), +950p (1000). <u>Laser Shock</u> buffed: 15d/.1s, 5s duration"
         },
 
         {UpgradeType.AdvancedTargeting, "Camo."},
@@ -42,15 +42,15 @@ public class DartlingGunnerUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.RocketStorm,
-            "<u>Rockets</u> and <u>Blasts</u> buffed: +2p. Ability (40s): Produces 19 waves of 9 <u>Missiles</u> (6d, 8p, ∞r, <i>Normal</i>, 120°) that briefly stun Bloons."
+            "<u>Rockets</u> and <u>Blasts</u> buffed: +2p. Ability (40s): Produces 15 waves of 10 <u>Missiles</u> (5d, 8p, ∞r, <i>Normal</i>, 120°) that briefly stun Bloons."
         },
         {
-            "M.A.D",
-            "<u>Rockets</u> now have (3d +750md, 8p, .4s). Ability <u>Missiles</u> are larger and have +8p (16)."
+            UpgradeType.MAD,
+            "<u>Rockets</u> now have (3d, 550md, 12p, .4s). Ability <u>Missiles</u> are larger and have +8p (16)."
         },
 
         {UpgradeType.FasterSwivel, "2x faster turn speed."},
-        {UpgradeType.PowerfulDarts, "<u>Dart</u> attack buffed: +2p (3), and increased projectile speed."},
+        {UpgradeType.PowerfulDarts, "<u>Dart</u> attack buffed: +2p (3), <i>Shatter</i>, and increased projectile speed. All projectiles are slightly larger."},
         {
             UpgradeType.Buckshot,
             "<u>Dart</u> attack replaced with <u>Buckshot</u> (4d, 4p, 1.5s (1s w/ 023), 6j, 130r) that knocks back non-MOAB Bloons a small amount."

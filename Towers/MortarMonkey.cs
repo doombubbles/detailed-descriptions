@@ -22,10 +22,10 @@ public class MortarMonkeyUpgrades : UpgradeDetailedDescriptions
             UpgradeType.Shockwave,
             "<u>Shell</u> also creates: <u>Shockwave</u> (45p, <i>Explosion</i>) that stuns in small radius for 0.5s, then deals 1d to anything in a larger radius that was not stunned."
         },
-        {UpgradeType.TheBigOne, "+40p (85), <i>Normal</i>. <u>Explosion</u> buffed: +3d (5)."},
+        {UpgradeType.TheBigOne, "+40p (85), <i>Normal</i>. <u>Explosion</u> buffed: +4d (7)."},
         {
             UpgradeType.TheBiggestOne,
-            "+115p (200). <u>Explosion</u> buffed: +15d (20), +20cd (40), +20md (40), ~80 blast radius. <u>Shockwave</u> buffed: +10cd (11) outside stun, ~120 blast radius."
+            "+115p (200). <u>Explosion</u> buffed: +20d (25), +20cd (40), +20md (40), ~80 blast radius. <u>Shockwave</u> buffed: +20cd (11) outside stun, ~120 blast radius."
         },
 
         {UpgradeType.MortarFasterReload, "75%s (1.5)"},
@@ -43,7 +43,7 @@ public class MortarMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.IncreasedAccuracy, "Less variance in shell target."},
         {
             UpgradeType.BurnyStuff,
-            "On-damage effect: apply <u>Burn</u> status (1d/1.25s (2d, 3d, 25d for 302 through 502), <i>Fire</i>, 3.75s duration)."
+            "On-damage effect: apply <u>Burn</u> status (1d/1.25s (2d, 5d, 25d for 302,402,502), <i>Fire</i>, 3.75s duration)."
         },
         {UpgradeType.SignalFlare, "Camo. Creates AoE De-camo (50r, 80p)"},
         {UpgradeType.ShatteringShells, "On-hit effect: De-regrow, De-fortify, De-camo, but still not DDTs. "},

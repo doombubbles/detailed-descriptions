@@ -22,7 +22,7 @@ public class DartMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.Juggernaut,
-            "<u>Spikeball</u> replaced by <u>Juggernaut</u> (2d, 2cd (3), 50p, 36.5r, 1.0s, <i>Normal</i>). <u>Juggernaut</u> can rebound off walls."
+            "<u>Spikeball</u> replaced by <u>Juggernaut</u> (2d, 3cd, 50p, 36.5r, 1.0s, <i>Normal</i>). <u>Juggernaut</u> slightly knocks back bloons and can rebound off walls."
         },
         {
             UpgradeType.UltraJuggernaut,

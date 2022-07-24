@@ -41,7 +41,7 @@ public class MonkeyBuccaneerUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.MonkeyPirates,
-            "<u>Cannonball</u> buffed: +1d (2), +2j (3). Ability (50s cooldown): Immediately removes the strongest non-ZOMG/BAD Blimp, gaining full cash."
+            "<u>Cannonball</u> buffed: +1d (2), +2j (3). <u>Grapes</u> buffed: +1cd. Ability (50s cooldown): Immediately removes the strongest non-ZOMG/BAD Blimp, gaining full cash."
         },
         {
             UpgradeType.PirateLord,
@@ -49,7 +49,7 @@ public class MonkeyBuccaneerUpgrades : UpgradeDetailedDescriptions
         },
 
         {UpgradeType.LongRange, "+11r (71). +1p to most projectiles, projectile speeds increased."},
-        {"Buccaneer-Crow's Nest", "Camo"},
+        {UpgradeType.CrowsNest, "Camo"},
         {UpgradeType.Merchantman, "$200 end of round income."},
         {
             UpgradeType.FavoredTrades,

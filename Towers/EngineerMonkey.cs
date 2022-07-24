@@ -23,10 +23,10 @@ public class EngineerMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.Sprockets, "<u>Nail</u> and <u>Sentry Nail</u> buffed: 60%s (0.42 and 0.57)."},
         {
             UpgradeType.SentryExpert,
-            "<u>Crushing Sentry</u> has <u>Spiked-ball</u> attack (2d, 1cd (3), 22p, 50r, 1.1s, <i>Shatter</i>). " +
-            "<u>Boom Sentry</u> has a <u>Bomb</u> attack (2d, 30p, 50r, 0.9s, 18 blast radius, <i>Explosion</i>). " +
-            "<u>Cold Sentry</u> has a <u>Ice-ball</u> attack (1d, 15p, 50r, 1.5s, <i>Cold</i>) that applies Frozen/Permafrost status for 1.5s. " +
-            "<u>Energy Sentry</u> has a <u>Laser</u> attack (2d, 8p, 50r, 0.57s, <i>Energy</i>)."
+            "<u>Crushing Sentry</u> has <u>Spiked-ball</u> attack (2d, 4cd, 22p, 50r, 1.1s, <i>Shatter</i>). " +
+            "<u>Boom Sentry</u> has a <u>Bomb</u> attack (4d, 30p, 50r, 0.9s, 18 blast radius, <i>Explosion</i>). " +
+            "<u>Cold Sentry</u> has a <u>Ice-ball</u> attack (1d, 25p, 50r, 1.5s, <i>Cold</i>) that applies Frozen/Permafrost status for 1.5s. " +
+            "<u>Energy Sentry</u> has a <u>Laser</u> attack (2d, 2md, 8p, 50r, 0.57s, <i>Energy</i>)."
         },
         {
             UpgradeType.SentryParagon,

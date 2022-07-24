@@ -32,7 +32,7 @@ public class MonkeyAceUpgrades : UpgradeDetailedDescriptions
         },
 
         {UpgradeType.ExplodingPineapple, "Gains <u>Pineapple</u> attack (1d, 20p (32p w/ 011), 2s, <i>Explosion</i>)"},
-        {UpgradeType.SpyPlane, "Camo"},
+        {UpgradeType.SpyPlane, "Camo detection, +1d to Camos"},
         {
             UpgradeType.BomberAce,
             "<u>Pineapple</u> replaced by <u>Bombing Run</u> (3d, 20p (32p w/ 031), 1.7s, 4j, <i>Explosion</i>) that's dropped on path"

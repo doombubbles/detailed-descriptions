@@ -24,7 +24,7 @@ public class BombShooterUpgrades : UpgradeDetailedDescriptions
 
         {UpgradeType.FasterReload, "75%s (1.125)"},
         {UpgradeType.MissileLauncher, "80%s (0.9), +4r (44), faster projectile speed"},
-        {UpgradeType.MOABMauler, "+1cd (2), +18md (19), +5r (49)"},
+        {UpgradeType.MOABMauler, "+18md (19), +5r (49)"},
         {
             UpgradeType.MOABAssassin,
             "+12md (31), +3cd (5), +5r (54). Ability (30s cooldown): Targets the strongest blimp: removes its top layer (up to 750d), and creates a (3d, 100p) <i>Explosion</i>."
@@ -37,7 +37,7 @@ public class BombShooterUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.ExtraRange, "+7r (47)"},
         {
             UpgradeType.FragBombs,
-            "+2r (49), <i>Normal</i>, On-hit: <u>Frags</u> (1d (2d w/ 302, 12 w/ 502), 1p (2p w/ 202, 3p w/ 502), 8j, <i>Sharp</i>)"
+            "+2r (49), <i>Normal</i>, On-hit: <u>Frags</u> (1d (3d,4d,12d+12cd w/ 302,402,502), 1p (2p,3p,20p  w/ 302,402,502), 8j (12 w/ 302), <i>Sharp</i>)"
         },
         {UpgradeType.ClusterBombs, "<u>Frags</u> replaced by <u>Clusters</u> (1d, 10p, 8j, <i>Explosion</i>)"},
         {

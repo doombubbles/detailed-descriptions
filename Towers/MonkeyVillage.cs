@@ -28,13 +28,13 @@ public class MonkeyVillageUpgrades : UpgradeDetailedDescriptions
         {
             UpgradeType.PrimaryExpertise,
             "+7r (55). <u>Primary Buff</u> improved: +2p (so +3 overall), free tier 2 upgrades. 80% ability cooldowns. " +
-            "Gains <u>Catapult</u> attack (10d, 190cd (200), 190md (200), 100p but Blimps use 10p, ∞r, 3.0s, <i>Normal</i>, Camo)."
+            "Gains <u>Catapult</u> attack (10d, 190cd (200), 190md (200), 100p but Blimps use 10p, ∞r, 2.5s, <i>Normal</i>, Camo)."
         },
 
         {UpgradeType.GrowBlocker, "Applies Anti-regrow status to Bloons in range."},
         {UpgradeType.RadarScanner, "Buff improved: Grants Camo."},
         {UpgradeType.MonkeyIntelligenceBureau, "Buff improved: grants <i>Normal</i> damage."},
-        {UpgradeType.CallToArms, "Ability (45s cooldown): Provides another buff for 12s (+50%p, 66.67%s)."},
+        {UpgradeType.CallToArms, "Ability (45s cooldown): Provides another buff for 15s (+50%p, 66.67%s)."},
         {
             UpgradeType.HomelandDefense,
             "Ability (60s cooldown): Applies over an infinite range for 20s, and improved to (+100%p, 50%s)."

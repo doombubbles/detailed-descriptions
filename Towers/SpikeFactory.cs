@@ -25,8 +25,8 @@ public class SpikeFactoryUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.SuperMines,
-            "Speed becomes 4.4s. <u>Explosion</u> buffed: +990d (1000), +20p (60), <i>Normal</i>. " +
-            "Each Spike of each mine makes a smaller <u>Explosion</u> (10d, 30p, 20r, <i>Explosion</i>)."
+            "Speed becomes 4.4s. Spikes get +40d (50), 20cd, 15fd. <u>Explosion</u> buffed: 1000d, 250fd, +20p (60), <i>Normal</i>. " +
+            "Each Spike of each mine makes a smaller <u>Explosion</u> (20d, 10cd, 5fd, 30p, 20r, <i>Explosion</i>)."
         },
 
         {UpgradeType.FasterProduction, "80%s (1.4)"},
@@ -38,7 +38,7 @@ public class SpikeFactoryUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.CarpetOfSpikes,
-            "Default and Ability spikes gain +2d (3, 7md). Passive (15s cooldown): Same as activated ability."
+            "<u>Spikes</u> buffed: 4d, 50r, .33s. Default and Ability spikes gain +2d (3, 7md). Passive (15s cooldown): Same as activated ability."
         },
 
         {UpgradeType.LongReach, "+8r (42), 100s lifespan."},

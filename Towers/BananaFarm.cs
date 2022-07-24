@@ -53,6 +53,6 @@ public class BananaFarmUpgrades : UpgradeDetailedDescriptions
             UpgradeType.CentralMarket,
             "+$800 income ($1120). Gains a buff: +10% end of round income to all xx3+ Buccaneers, stacks additively up to 10 times (+100%), but not with Trade Empire."
         },
-        {UpgradeType.MonkeyWallStreet, "$4000 and 10 lives produced each round."},
+        {UpgradeType.MonkeyWallStreet, "$4000 and 10 lives produced each round. Collects nearby (60r) Bananas/Crates like a Farmer."},
     };
 }
