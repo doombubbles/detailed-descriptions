@@ -1,1 +1,1 @@
-- Update for Mod Helper v3.0
+- Updated for BTD6 v32.0

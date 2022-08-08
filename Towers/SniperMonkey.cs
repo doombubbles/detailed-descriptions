@@ -18,10 +18,10 @@ public class SniperMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.FullMetalJacket, "+2d (4), <i>Normal</i>"},
         {UpgradeType.LargeCalibre, "+3d (7)"},
         {UpgradeType.DeadlyPrecision, "+13d (20), +15cd (35)"},
-        {UpgradeType.MaimMOAB, "+10d (30, 45cd), Stuns blimps (MOABs 3s, BFBs 1.5s, ZOMGs and DDTs 0.75s)."},
+        {UpgradeType.MaimMOAB, "+10d (30, 45cd), Stuns blimps (MOABs 1s, BFBs 1s, ZOMGs and DDTs 0.5s)."},
         {
             UpgradeType.CrippleMOAB,
-            "+50d (80, 75cd), Stun duration buffed: MOAB 7s, BFB 6s, ZOMG 3s, DDT 4s and applies <u>Crippled</u> status (take +5d) (0.75s for BADs)."
+            "+50d (80, 75cd), Stun duration buffed: MOAB 4.5s, BFB 4s, ZOMG 2s, DDT 2.5s and applies <u>Crippled</u> status (take +5d) (0.5s for BADs)."
         },
 
         {UpgradeType.NightVisionGoggles, "Gains Camo detection\n<u>Bullet</u> buffed: +2 Camo damage"},
@@ -32,7 +32,7 @@ public class SniperMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.BouncingBullet, "4p (no longer impact), jumps to targets within 40r (50r w/ 230) until pierce runs out."},
         {
             UpgradeType.SupplyDrop,
-            "<u>Shrapnel</u> buffed: +3p (6). <u>Bullet</u> buffed: <i>Normal</i>. Ability (90s cooldown): Drops a crate worth $1200."
+            "<u>Shrapnel</u> buffed: +3p (5). <u>Bullet</u> buffed: <i>Normal</i>. Ability (90s cooldown): Drops a crate worth $1200."
         },
         {
             UpgradeType.EliteSniper,

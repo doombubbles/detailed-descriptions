@@ -52,7 +52,7 @@ public class MonkeyVillageUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.Monkeyopolis,
-            "Actual cost is $5000 * number of non-tier-5 Farms in range. Sacrifices those Farms to gain income of $300 * floor(sacrifice $ / 2000)."
+            "Actual cost is $5000 * number of non-tier-5 Farms in range. Sacrifices those Farms to gain income of $200 * floor(sacrifice $ / 2000)."
         },
     };
 }

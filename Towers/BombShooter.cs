@@ -24,10 +24,10 @@ public class BombShooterUpgrades : UpgradeDetailedDescriptions
 
         {UpgradeType.FasterReload, "75%s (1.125)"},
         {UpgradeType.MissileLauncher, "80%s (0.9), +4r (44), faster projectile speed"},
-        {UpgradeType.MOABMauler, "+18md (19), +5r (49)"},
+        {UpgradeType.MOABMauler, "+15md (16), +5r (49)"},
         {
             UpgradeType.MOABAssassin,
-            "+12md (31), +3cd (5), +5r (54). Ability (30s cooldown): Targets the strongest blimp: removes its top layer (up to 750d), and creates a (3d, 100p) <i>Explosion</i>."
+            "+52md (31), +3cd (5), +5r (54). Ability (30s cooldown): Targets the strongest blimp: removes its top layer (up to 750d), and creates a (3d, 100p) <i>Explosion</i>."
         },
         {
             UpgradeType.MOABEliminator,

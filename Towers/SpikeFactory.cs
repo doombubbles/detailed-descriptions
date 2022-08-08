@@ -26,7 +26,7 @@ public class SpikeFactoryUpgrades : UpgradeDetailedDescriptions
         {
             UpgradeType.SuperMines,
             "Speed becomes 4.4s. Spikes get +40d (50), 20cd, 15fd. <u>Explosion</u> buffed: 1000d, 250fd, +20p (60), <i>Normal</i>. " +
-            "Each Spike of each mine makes a smaller <u>Explosion</u> (20d, 10cd, 5fd, 30p, 20r, <i>Explosion</i>)."
+            "Each Spike of each mine makes a smaller <u>Explosion</u> (20d, 10cd, 5fd, 30p, 20r, <i>Explosion</i>). <u>Burn</u> buffed: 500d"
         },
 
         {UpgradeType.FasterProduction, "80%s (1.4)"},

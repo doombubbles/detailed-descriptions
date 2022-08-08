@@ -52,7 +52,7 @@ public class SuperMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.LegendOfTheNight,
-            "+3d (5, 8md), +15p (22), +4r (57). Passive (120s cooldown): Before something leaks, delete it, and anything else that would leak in the next 8s."
+            "+8d, +5md, +2cd (10, 18md, 14cd), +15p (22), +4r (57). Passive (120s cooldown): Before something leaks, delete it, and anything else that would leak in the next 8s."
         },
     };
 }

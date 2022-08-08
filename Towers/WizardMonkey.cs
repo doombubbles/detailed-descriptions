@@ -29,7 +29,7 @@ public class WizardMonkeyUpgrades : UpgradeDetailedDescriptions
 
         {
             UpgradeType.Fireball,
-            "Gains <u>Fireball</u> attack (1d, 2.2s, <i>Fire</i>) that creates an explosion (1d, 15p, <i>Explosion</i>) on damage."
+            "Gains <u>Fireball</u> attack (1d, 2.2s, <i>Fire</i>) that creates an explosion (1d, 15p (20p w/ 011), <i>Explosion</i>) on damage."
         },
         {
             UpgradeType.WallOfFire,

@@ -34,14 +34,14 @@ public class DruidUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.HeartOfOak, "All attacks gain on-hit effect: De-regrow."},
         {
             UpgradeType.DruidOfTheJungle,
-            "Gains <u>Vine</u> attack (1.4s) that targets strongest Bloon and destroys it. Drops <u>Thorns</u>: 1d, 30p, .3s"
+            "Gains <u>Vine</u> attack (1.4s) that targets strongest Bloon and destroys it. Drops <u>Thorns</u>: 1d, 30p, .3s, <i>Sharp</i> (<i>Normal</i> w/ 130)"
         },
         {
             UpgradeType.JunglesBounty,
             "+10r (45). <u>Vine</u> can target 2 Bloons at once <u>Ability</u> (60s cooldown): Gains $240, plus $120 for every Banana Farm in range."
         },
         {
-            UpgradeType.SpiritOfTheForest, "+$1000 end of round income. <u>Vine</u> buffed: 0.3s. " +
+            UpgradeType.SpiritOfTheForest, "+$1000 end of round income. <u>Thorns</u> buffed: 20d. <u>Vine</u> buffed: 0.3s. " +
                                            "Gains <u>Brambles</u> attack (2-4d, 8-16cd (10-20), 8-16md (10-20), ∞p, 0.5s, ∞r, <i>Sharp</i>, Camo, cannot be buffed). " +
                                            "Ability buffed: +25 lives. <u>Thorns</u> buffed: +4d (%5)."
         },

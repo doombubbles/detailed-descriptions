@@ -22,7 +22,7 @@ public class MonkeySubUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.SubmergeAndSupport,
-            "Gains Submerge targeting option, replacing <u>Dart</u> with <u>Sonar</u> (0d, ∞p, 1.75s (1.275s w/ 301, 0.956s w/ 302), de-camo)."
+            "Gains Submerge targeting option, replacing <u>Dart</u> with <u>Sonar</u> (0d, 100p (120 w/ 310, 150 w/320), 1.75s (1.275s w/ 301, 0.956s w/ 302), de-camo)."
         },
         {
             UpgradeType.BloontoniumReactor,
@@ -31,7 +31,7 @@ public class MonkeySubUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.Energizer,
-            "<u>Radioactive</u> buffed: 5d, 5cd, 1000p/ Water towers in range have 50% ability cooldowns, all others 80%. Heroes in range get +50% XP."
+            "<u>Sonar</u> buffed: 1000p. <u>Radioactive</u> buffed: 5d, 5cd, 1000p/ Water towers in range have 50% ability cooldowns, all others 80%. Heroes in range get +50% XP."
         },
 
         {UpgradeType.BarbedDarts, "+3p (5)"},

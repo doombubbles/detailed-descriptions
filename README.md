@@ -10,5 +10,4 @@ Hold *Shift* while on the Upgrades screen to see full and detailed information a
 Information primarily aggregated from the Advanced Popology reddit posts by u/topper64, 
 with other info from the Bloons Wiki and my own investigation of the source code.
 
-## NOTE: This alpha version of the mod requires [BTD6 Mod Helper >v3.0](https://github.com/gurrenm3/BTD-Mod-Helper/wiki/Mod-Helper-3.0-Alpha), see [here](https://github.com/doombubbles/BTD6-Mods#readme) for the stable mods
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)

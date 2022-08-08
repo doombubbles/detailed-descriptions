@@ -28,8 +28,8 @@ public class IceMonkeyUpgrades : UpgradeDetailedDescriptions
             "+3d (5), 90%s (2.16), <i>Normal</i>. <u>Brittle</u> status buffed: take +4d, 3s duration. Blimps can receive <u>Permafrost</u> and <u>Brittle</u>."
         },
 
-        {UpgradeType.EnhancedFreeze, "75%s (1.8s), <u>Frozen</u> status now lasts 2.2s."},
-        {UpgradeType.DeepFreeze, "<u>Frozen</u> status is passed down 1 layer."},
+        {UpgradeType.EnhancedFreeze, "75%s (1.8s), <u>Frozen</u> status now lasts 1.75s."},
+        {UpgradeType.DeepFreeze, "<u>Frozen</u> status is passed down 1 layer and lasts 2.2s."},
         {
             UpgradeType.ArcticWind,
             "+60p (100), gains <u>Slow</u> aura (<i>Cold</i>, 50% slow). Land towers are placeable on any water in range."
@@ -48,7 +48,7 @@ public class IceMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.ReFreeze, "<u>Freeze</u>: <i>Glacier</i>"},
         {
             UpgradeType.CryoCannon,
-            "Replaces <u>Freeze</u> attack with <u>Ice-Bomb</u> (1.0s, 46r, <i>Color</i>) that applies <u>Freeze</u> (2d, 30p, 20r, <i>Glacier</i>, <u>Frozen</u> for 1.5s)"
+            "Replaces <u>Freeze</u> attack with <u>Ice-Bomb</u> (1.2s, 46r, <i>Color</i>) that applies <u>Freeze</u> (2d, 30p, 20r, <i>Glacier</i>, <u>Frozen</u> for 1.5s)"
         },
         {UpgradeType.Icicles, "<u>Frozen</u> Bloons have <u>Icicles</u> (2d, 3p, <i>Sharp</i>)."},
         {

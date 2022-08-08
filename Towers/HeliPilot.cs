@@ -34,11 +34,11 @@ public class HeliPilotUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.IFR, "Camo."},
         {
             UpgradeType.Downdraft,
-            "Gains <u>Downdraft</u> attack (0d, 0.15s (.12s w/ 032)1p, ) that sends Bloon 50-300 units back."
+            "Gains <u>Downdraft</u> attack (0d, 0.15s (.12s w/ 032)1p, ) that sends Bloon 32-150 units back."
         },
         {
             UpgradeType.SupportChinook,
-            "Ability (60s cooldown): Move a tower, except for: Aces, Helis, Farms, Villages, Aircraft Carriers, and Temples.) Ability (90s cooldown): Drops $1800 and 10 lives."
+            "<u>Downdraft</u> buffed: 32-300 units. Ability (60s cooldown): Move a tower, except for: Aces, Helis, Farms, Villages, Aircraft Carriers, and Temples.) Ability (90s cooldown): Drops $1800 and 10 lives."
         },
         {
             UpgradeType.SpecialPoperations,
