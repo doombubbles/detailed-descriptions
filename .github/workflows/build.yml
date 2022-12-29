@@ -8,7 +8,7 @@ on:
 
 env:
   PROJECT_NAME: DetailedDescriptions
-e  MELONLOADER_BRANCH: alpha-development
+  MELONLOADER_BRANCH: alpha-development
   
   MOD_HELPER_NAME: Btd6ModHelper
   BLOONSTD6: ./BloonsTD6
