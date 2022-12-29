@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -29,18 +29,18 @@ public class SuperMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.RoboMonkey, "+3p (6), gains independent second attack. 10d Crits every 15 - 20 shots."},
         {
             UpgradeType.TechTerror,
-            "Attack replaced by <u>Plasma</u> (1d, 8p, 0.048s, 72r, <i>Plasma</i>). Ability (45s cooldown): 2500d, 2000p, 70r."
+            "Attack replaced by <u>Plasma</u> (1d, 8p, 0.048s, 72r, <i>Plasma</i>). Ability (45s cooldown): 2500d, 2000p, 70r. Every 3rd use crits for +50%d."
         },
         {
             UpgradeType.TheAntiBloon,
-            "+4d (5), +5p (13), +10r (82), <i>Normal</i>. 50d Crits every 13-17 shots. Ability (45s cooldown): 5000d, 10000p, 120r."
+            "+4d (5), +5p (13), +10r (82), <i>Normal</i>. 50d Crits every 13-17 shots. Ability (30s cooldown): 5000d, 10000p, 120r."
         },
 
         {
             UpgradeType.Knockback,
             "Applies <u>Knockback</u> status (~0.5s duration, 125% slow for regular Bloons, 60% for Leads/Ceramics, and 30% for Blimps)."
         },
-        {UpgradeType.Ultravision, "+3r (53), Camo."},
+        {UpgradeType.Ultravision, "+3r (53), Camo, +1d to Camo."},
         {
             UpgradeType.DarkKnight,
             "<u>Dart</u> replaced by <u>Monkeyrang</u> (1d, 2md (3), 4p, 0.06s, 53r, <i>Sharp</i>). <u>Knockback</u> buffed: 90% slow to Leads/Ceramics. " +
@@ -52,7 +52,7 @@ public class SuperMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.LegendOfTheNight,
-            "+8d, +5md, +2cd (10, 18md, 14cd), +15p (22), +4r (57). Passive (120s cooldown): Before something leaks, delete it, and anything else that would leak in the next 8s."
+            "+8d, +5md, +2cd (10, 18md, 14cd), +15p (22), +4r (57). Passive (180s cooldown): Before something leaks, delete it, and anything else that would leak in the next 8s."
         },
     };
 }

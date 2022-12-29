@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -22,12 +22,12 @@ public class DartMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.Juggernaut,
-            "<u>Spikeball</u> replaced by <u>Juggernaut</u> (2d, 3cd, 50p, 36.5r, 1.0s, <i>Normal</i>). <u>Juggernaut</u> slightly knocks back bloons and can rebound off walls."
+            "<u>Spikeball</u> replaced by <u>Juggernaut</u> (2d, 3cd, 2fd, 50p, 36.5r, 1.0s, <i>Normal</i>). <u>Juggernaut</u> slightly knocks back bloons and can rebound off walls."
         },
         {
             UpgradeType.UltraJuggernaut,
-            "<u>Juggernaut</u> replaced by <u>Ultrajugg</u> (4d, 8cd (12), 200p, 1.0s, <i>Normal</i>). <u>Ultrajugg</u> can re-hit Bloons after rebounding, " +
-            "and emits 6 <u>Juggernauts</u> at 100p remaining and when it expires."
+            "<u>Juggernaut</u> replaced by <u>Ultrajugg</u> (4d, +8cd, +5fd, 200p, 1.0s, <i>Normal</i>). <u>Ultrajugg</u> can re-hit Bloons after rebounding, " +
+            "and emits 6 <u>Juggernauts</u> at 2d, +2fd, 50p remaining and when it expires."
         },
 
         {UpgradeType.QuickShots, "85%s (0.8075)"},
@@ -50,12 +50,12 @@ public class DartMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {UpgradeType.Crossbow, "<u>Dart</u> replaced by <u>Bolt</u> (3d, 3p, 0.95s, 56r, <i>Sharp</i>)"},
         {
-            UpgradeType.SharpShooter, "+3d (6), 0.75s\n" +
-                                      "50d Crit every 8-12 shots"
+            UpgradeType.SharpShooter, "+3d (6), 0.6s\n" +
+                                      "50d Crit every 10 shots"
         },
         {
-            UpgradeType.CrossbowMaster, "+7p (10) (16p w/ 105, 23p w/ 205), +20r (76), 0.16s, <i>Normal</i>\n" +
-                                        "Crit now occurs every 4-8 shots"
+            UpgradeType.CrossbowMaster, "+5p (8) (16p w/ 105, 23p w/ 205), +20r (76), 0.16s, <i>Normal</i>\n" +
+                                        "Crit now occurs every 5 shots"
         },
     };
 }

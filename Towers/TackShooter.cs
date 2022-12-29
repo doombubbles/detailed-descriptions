@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -20,11 +20,11 @@ public class TaskShooterUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.HotShots, "+1d (2), <i>Normal</i>"},
         {
             UpgradeType.RingOfFire,
-            "<u>Tacks</u> replaced by <u>Firezone</u> (3d (4d w/ 401, 5d w/ 402), 60p (70p w/ 410, 80p w/ 420), 0.47s, 23r zone, <i>Fire</i>)."
+            "<u>Tacks</u> replaced by <u>Firezone</u> (5d (6d w/ 401, 7d w/ 402), 40p (50p w/ 410, 60p w/ 420), 0.315s, 23r zone, <i>Fire</i>)."
         },
         {
             UpgradeType.InfernoRing,
-            "+1d (4), +6md (10), 0.1s, +11.5r (34.5). Gains <u>Meteor</u> attack (700d (100d w/ 502), 1p (2p w/520), 4.0s, ∞r, <i>Fire</i>, Camo, Strong targeting) " +
+            "+3d (8), +4md (12), 0.1s, +11.5r (34.5). Gains <u>Meteor</u> attack (700d (100d w/ 502), 1p (2p w/520), 4.0s, ∞r, <i>Fire</i>, Camo, Strong targeting) " +
             "that creates <u>Explosion</u> (50d, 10p, 18 blast radius) and applies <u>Burn</u> status (50d/1.0s, 4s duration, <i>Fire</i>)."
         },
 
@@ -44,6 +44,6 @@ public class TaskShooterUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.EvenMoreTacks, "+2j (12)"},
         {UpgradeType.TackSprayer, "75%s (1.05), +4j (16)"},
         {UpgradeType.Overdrive, "+1p (2), 33.33%s (0.35)"},
-        {UpgradeType.TheTackZone, "+1d (2), +2p (4) (10 w/ 025), 75%s (0.2625), +7r (30) (50 w/ 025), +16j (32)"},
+        {UpgradeType.TheTackZone, "+1md (2), +2p (4) (10 w/ 025), 75%s (0.2625), +7r (30) (50 w/ 025), +16j (32)"},
     };
 }

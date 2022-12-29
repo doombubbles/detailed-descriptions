@@ -1,1 +1,1 @@
-- Updated for BTD6 v32.0
+- Updated and fixed for BTD6 v34.0 / ML 0.6.0

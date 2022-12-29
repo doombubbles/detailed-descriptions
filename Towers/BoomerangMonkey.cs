@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -18,10 +18,10 @@ public class BoomerangMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.ImprovedRangs, "+4p (8)"},
         {UpgradeType.Glaives, "+5p (13)"},
         {UpgradeType.GlaiveRicochet, "<u>Boomerang</u> replaced by <u>Glaive</u> (1d, 50p, 1.2s, 43r, <i>Sharp</i>)"},
-        {UpgradeType.MOARGlaives, "+50p (100), 50%s (0.6)"},
+        {UpgradeType.MOARGlaives, "+1cd, +50p (100), 50%s (0.6). Ignores blocking objects."},
         {
             UpgradeType.GlaiveLord,
-            "Gains <u>Orbital Glaive</u> attack (2d, 5cd (7), 5md (7), 2fd (4), ∞p, 0.1s, 40r zone, camo). <u>Glaive</u> buffed: 8d, first hit applies shred effect (100d/1.0s, 15s duration)."
+            "Gains <u>Orbital Glaive</u> attack (2d, +8cd, +5md, +2fd, 80p, 0.1s, 40r zone, camo). <u>Glaive</u> buffed: 8d, +8cd, first hit applies shred effect (100d/1.0s, 15s duration)."
         },
 
         {UpgradeType.FasterThrowing, "75%s (.9)"},

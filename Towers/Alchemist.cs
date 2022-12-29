@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -46,7 +46,7 @@ public class AlchemistUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.TransformingTonic,
-            "Ability (60s cooldown, 20s duration): Transforms into a <u>Monster</u> with <u>Beam</u> attack (2d, 6p, 72r, 0.03s, <i>Plasma</i>)."
+            "Ability (60s cooldown, 20s duration): Transforms into a <u>Monster</u> with <u>Beam</u> attack (2d, 9p, 72r, 0.0024s, <i>Plasma</i>)."
         },
         {
             UpgradeType.TotalTransformation,

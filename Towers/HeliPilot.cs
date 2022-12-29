@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -23,11 +23,11 @@ public class HeliPilotUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.RazorRotors, "Gains <u>Rotor</u> attack (2d, 10p, 35r zone, 0.75s, <i>Normal</i>)."},
         {
             UpgradeType.ApacheDartship,
-            "Gains <u>Machine Gun</u> attack (1d, 7p, 0.05s, <i>Sharp</i>) and <u>Rocket</u> attack (2d, 40p, 1.0s, ∞r, 4j, <i>Explosion</i>)."
+            "<u>Rotor</u> buffed: +2d (4), +10p (20). Gains <u>Machine Gun</u> attack (1d, 7p, 0.05s, <i>Sharp</i>) and <u>Rocket</u> attack (2d, 40p, 1.0s, ∞r, 4j, <i>Explosion</i>)."
         },
         {
             UpgradeType.ApachePrime,
-            "<u>Dart</u> buffed: +5d (6), +20p (23), <i>Normal</i>. <u>Machine Gun</u> buffed: +4d (5), +4p (11), <i>Plasma</i>. <u>Rocket</u> buffed: +15md (17)."
+            "<u>Dart</u> buffed: +5d (6), +20p (23), <i>Normal</i>. <u>Rotor</u> buffed: +4d (8), +20p (40). <u>Machine Gun</u> buffed: +4d (5), +4p (11), <i>Plasma</i>. <u>Rocket</u> buffed: +15md (17)."
         },
 
         {UpgradeType.BiggerJets, "Flies faster."},
@@ -38,14 +38,14 @@ public class HeliPilotUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.SupportChinook,
-            "<u>Downdraft</u> buffed: 32-300 units. Ability (60s cooldown): Move a tower, except for: Aces, Helis, Farms, Villages, Aircraft Carriers, and Temples.) Ability (90s cooldown): Drops $1800 and 10 lives."
+            "<u>Downdraft</u> buffed: 32-300 units. Ability (60s cooldown): Move a tower, except for: Aces, Helis, Farms, Villages, Aircraft Carriers, and Temples.) Ability (90s cooldown): Drops $1650 and 10 lives."
         },
         {
             UpgradeType.SpecialPoperations,
             "Ability (60s cooldown): Drops $4500 and 25 lives. Ability (25s cooldown): deploy a Marine (30s lifetime) with a <u>Bullet</u> attack (6d, 20p, 0.05s, 50r, <i>Normal</i>)."
         },
 
-        {UpgradeType.FasterDarts, "Darts travel faster."},
+        {UpgradeType.FasterDarts, "Darts travel 30% faster and farther."},
         {UpgradeType.FasterFiring, "<u>Darts</u> buffed: 80%s."},
         {
             UpgradeType.MOABShove,

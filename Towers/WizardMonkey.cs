@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -24,7 +24,7 @@ public class WizardMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.ArcaneSpike, "+2d (5), +11md (16), 50%s (0.275), <u>Plasma</u>"},
         {
             UpgradeType.Archmage,
-            "<u>Bolt</u> buffed: +2d (7), +8md (26), +4p (10), 50%s (0.1375). Gains Dragon's Breath and Shimmer attacks."
+            "<u>Bolt</u> buffed: +2d (7), +8md (26), +4p (10), 50%s (0.1375). Gains Dragon's Breath and Shimmer attacks at 50%s with +100%md."
         },
 
         {
@@ -33,16 +33,16 @@ public class WizardMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.WallOfFire,
-            "Ever 5.5s creates <u>Wall of Fire</u> effect (1d, 15p (19p w/ 021), 20r, 0.15s, <i>Fire</i>, 4.5s lifetime)."
+            "Ever 5.5s creates <u>Wall of Fire</u> effect (1d, 10p (15p w/ 021), 20r, 0.15s, <i>Fire</i>, 4.5s (5.5s w/ 120) lifetime)."
         },
         {
             UpgradeType.DragonsBreath,
-            "Gains <u>Flame</u> attack (1d, 1cd (2), 4p (6p w/ 031), 0.1s, 50r, <i>Fire</i>) that applies <u>Burn</u> status (1d/1.5s, <i>Fire</i>, 3s duration). " +
-            "Wall of Fire now .1s tick, created every 4.5s. <u>Fireball</u> buffed: 9d"
+            "Gains <u>Flame</u> attack (2d, 1cd (2), 4p (6p w/ 031), 0.1s, 50r, <i>Fire</i>) that applies <u>Burn</u> status (1d/1.5s, <i>Fire</i>, 3s duration). " +
+            "Wall of Fire now .1s tick, 20p, created every 4.5s. <u>Fireball</u> buffed: 9d"
         },
         {
             UpgradeType.SummonPhoenix,
-            "Ability (45s cooldown, 20s duration): Summons a <u>Phoenix</u> with <u>Flame</u> attack (5d, 10p, ∞r, 0.1s, <i>Fire</i>, Camo)."
+            "Ability (45s cooldown, 20s duration): Summons a <u>Phoenix</u> with <u>Flame</u> attack (5d, 8p, ∞r, 0.1s, <i>Fire</i>, Camo)."
         },
         {
             UpgradeType.WizardLordPhoenix,
@@ -52,7 +52,7 @@ public class WizardMonkeyUpgrades : UpgradeDetailedDescriptions
 
         {UpgradeType.IntenseMagic, "<u>Bolt</u> buffed: +5p (7), faster projectile speed."},
         {UpgradeType.MonkeySense, "Camo."},
-        {UpgradeType.Shimmer, "+20r (60). Gains Shimmer attack (0d, 200p, 2.5s, 70r, De-camo)."},
+        {UpgradeType.Shimmer, "+20r (60). Gains Shimmer attack (0d, 200p, 2.5s, 80r, De-camo)."},
         {
             "Necromancer: Unpopped Army",
             "Stores up to 500 pops within 70r in <u>Graveyard</u> for 2 rounds (pops worth 7-13 after round 80). " +

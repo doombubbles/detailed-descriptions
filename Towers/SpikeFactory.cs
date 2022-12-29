@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -21,7 +21,7 @@ public class SpikeFactoryUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.SpikedBalls, "+1d (2), +3cd (5), +1fd, +4p (14)."},
         {
             UpgradeType.SpikedMines,
-            "+3cd (8). Creates an <u>Explosion</u> (10d, 2cd (12), 1fd, 40p, <i>Explosion</i>) that applies <u>Burn</u> status (1d/2s, <i>Fire</i>, 6s duration) when spikes expire."
+            "+3cd, +3fd. Creates an <u>Explosion</u> (10d, 2cd (12), +3fd, 40p, <i>Explosion</i>) that applies <u>Burn</u> status (1d/2s, <i>Fire</i>, 6s duration) when spikes expire."
         },
         {
             UpgradeType.SuperMines,

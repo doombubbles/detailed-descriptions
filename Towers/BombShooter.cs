@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -18,7 +18,7 @@ public class BombShooterUpgrades : UpgradeDetailedDescriptions
     {
         {UpgradeType.BiggerBombs, "+6p (20)"},
         {UpgradeType.HeavyBombs, "+1d (2), +10p (30)"},
-        {UpgradeType.ReallyBigBombs, "+1d (3), +20p (48)"},
+        {UpgradeType.ReallyBigBombs, "+1d (3), 60p"},
         {UpgradeType.BloonImpact, "+3r (43). Applies stun status for 1s (cannot affect Blimps)."},
         {UpgradeType.BloonCrush, "+9d (12), <i>Normal</i>\nStun buffed: 2s duration, can affect Blimps"},
 
@@ -39,7 +39,7 @@ public class BombShooterUpgrades : UpgradeDetailedDescriptions
             UpgradeType.FragBombs,
             "+2r (49), <i>Normal</i>, On-hit: <u>Frags</u> (1d (3d,4d,12d+12cd w/ 302,402,502), 1p (2p,3p,20p  w/ 302,402,502), 8j (12 w/ 302), <i>Sharp</i>)"
         },
-        {UpgradeType.ClusterBombs, "<u>Frags</u> replaced by <u>Clusters</u> (1d, 10p, 8j, <i>Explosion</i>)"},
+        {UpgradeType.ClusterBombs, "<u>Frags</u> replaced by <u>Clusters</u> (1d, 8p, 8j, <i>Explosion</i>)"},
         {
             UpgradeType.RecursiveCluster,
             "Every other shot does a <u>Supercluster</u>, which also makes a <u>Subcluster</u> (1d, 60p (120p w/ 104), <i>Explosion</i>)."

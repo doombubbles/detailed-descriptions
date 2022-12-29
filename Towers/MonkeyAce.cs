@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -54,11 +54,11 @@ public class MonkeyAceUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.NevaMissTargeting, "<u>Radial Darts</u> buffed: faster projectile speed and homing."},
         {
             UpgradeType.Spectre,
-            "<u>Radial Darts</u> replaced by <u>Barrage</u> (0.06s, ∞r) which alternately fires <u>Darts</u> (2d, +2cd (4), 15p, <i>Sharp</i>) and <u>Bombs</u> (3d, +2cd (5), 30p (45p w/ 014), <i>Explosion</i>). "
+            "<u>Radial Darts</u> replaced by <u>Barrage</u> (0.06s, ∞r) which alternately fires <u>Darts</u> (3d, +2cd (4), 15p, <i>Sharp</i>) and <u>Bombs</u> (2d, +4cd (6), 30p (45p w/ 014), <i>Explosion</i>). "
         },
         {
             UpgradeType.FlyingFortress,
-            "<u>Barrage</u> buffed: +2d, +2j, 66.66%s (0.04), <i>Normal</i>. The 3 projectiles have separate targeting (first, last, and close)."
+            "<u>Barrage</u> buffed: +2d, +2j, +10md, 66.66%s (0.04), <i>Normal</i>. The 3 projectiles have separate targeting (first, last, and close)."
         },
     };
 }

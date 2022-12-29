@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -21,9 +21,9 @@ public class GlueGunnerUpgrades : UpgradeDetailedDescriptions
             UpgradeType.CorrosiveGlue,
             "<u>Glued</u> status buffed: 1d/2s and can overwrites weaker effects. <u>Glue</u> can affect Blimps, but lasts half as long and doesn't slow."
         },
-        {UpgradeType.BloonDissolver, "<u>Glued</u> status buffed: 1d/.575s, +1cd (2)"},
-        {UpgradeType.BloonLiquefier, "+1p (2). <u>Glued</u> status buffed: 1d/.1s"},
-        {UpgradeType.TheBloonSolver, "2j, 4p, 25%s (0.25), impact. <u>Glued</u> status buffed: +4cd/0.1s and +5md/0.1s."},
+        {UpgradeType.BloonDissolver, "+1p (2). <u>Glued</u> status buffed: 1d/.575s, +1cd (2)"},
+        {UpgradeType.BloonLiquefier, "+1cd <u>Glued</u> status buffed: 1d/.1s"},
+        {UpgradeType.TheBloonSolver, "2j, 4p, 25%s (0.25), impact. <u>Glued</u> status buffed: +8cd/0.1s and +5md/0.1s."},
 
         {UpgradeType.BiggerGlobs, "+1p (2)"},
         {UpgradeType.GlueSplatter, "+4p (6), impact"},

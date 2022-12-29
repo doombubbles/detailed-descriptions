@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -53,7 +53,7 @@ public class DartlingGunnerUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.PowerfulDarts, "<u>Dart</u> attack buffed: +2p (3), <i>Shatter</i>, and increased projectile speed. All projectiles are slightly larger."},
         {
             UpgradeType.Buckshot,
-            "<u>Dart</u> attack replaced with <u>Buckshot</u> (4d, 4p, 1.5s (1s w/ 023), 6j, 130r) that knocks back non-MOAB Bloons a small amount."
+            "<u>Dart</u> attack replaced with <u>Buckshot</u> (4d, 6p, 1.5s (1s w/ 023), 6j, 130r) that knocks back non-MOAB Bloons a small amount."
         },
         {
             UpgradeType.BloonAreaDenialSystem,

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers;
 using BTD_Mod_Helper.Api.Enums;
 
 namespace DetailedDescriptions.Towers;
@@ -20,7 +20,7 @@ public class EngineerMonkeyUpgrades : UpgradeDetailedDescriptions
             "Every 10s, place a <u>Sentry</u> that lasts 25s and has <u>Sentry Nail</u> attack (1d, 2p (3p w/ 101), 0.95s, 45r (49r w/ 110), <i>Sharp</i> (<i>Shatter</i> w/ 101))."
         },
         {UpgradeType.FasterEngineering, "Sentries built every 6s."},
-        {UpgradeType.Sprockets, "<u>Nail</u> and <u>Sentry Nail</u> buffed: 60%s (0.42 and 0.57)."},
+        {UpgradeType.Sprockets, "<u>Nail</u> and <u>Sentry Nail</u> buffed: 50%s."},
         {
             UpgradeType.SentryExpert,
             "<u>Crushing Sentry</u> has <u>Spiked-ball</u> attack (2d, 4cd, 22p, 50r, 1.1s, <i>Shatter</i>). " +
@@ -41,7 +41,7 @@ public class EngineerMonkeyUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.Overclock,
-            "<u>Nail</u> buffed: +12p (15). Ability (45s cooldown): Chosen tower attacks 1.667× faster for the next (105 - 15 tier)s. " +
+            "<u>Nail</u> buffed: +12p (15). Ability (45s cooldown): Chosen tower attacks 1.667× faster for the next (105 - 15*tier)s. " +
             "Heroes have 'tier' (level - 1)/4. Overclocked farms give more income; Villages have +25%r."
         },
         {
