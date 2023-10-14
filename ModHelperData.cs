@@ -2,8 +2,8 @@
 {
     public static class ModHelperData
     {
-        public const string WorksOnVersion = "34.3";
-        public const string Version = "1.1.2";
+        public const string WorksOnVersion = "39.0";
+        public const string Version = "1.1.3";
         public const string Name = "Detailed Descriptions";
 
         public const string Description =
